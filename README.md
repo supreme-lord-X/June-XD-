@@ -11,13 +11,13 @@
  <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&linesJUNE-XD+XD+WHATSAPP+BOT+XD" alt="">
    
-## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
+## 🚀𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏🚀
 
 **1. Fork This Repository**
 
-*_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
+> Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/supreme-lord-X/JUNE-XD/fork"><img title="JUNE-XD" src="https://img.shields.io/badge/FORK-JUNE-XD?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/supreme-lord-X/JUNE-XD/fork"><img title="JUNE-XD" src="https://img.shields.io/badge/FORK-JUNEXD?color=darkgreen&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
