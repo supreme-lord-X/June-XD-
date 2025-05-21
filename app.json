@@ -1,6 +1,6 @@
 {
-  "name": "PEACEMAKER MD",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ EMMANUEL ",
+  "name": "JUNE XD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ SUPREME ",
   "logo": "your image url",
   "keywords": ["bot"],
   "success_url": "/",
@@ -93,9 +93,9 @@
     }, 
 
     "BOT_NAME": {
-      "description": "EMMANUEL.",
+      "description": "SUPREME.",
       "required": true,
-      "value": "✦『PEACEMAKER-MD』✦"
+      "value": "💠『JUNE-MD』💠"
     }, 
 
     "HEART_REACT": {
