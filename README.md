@@ -1,4 +1,7 @@
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
+# JUNE-XD
+
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 💫𝐒𝐢𝐦𝐩𝐥𝐞  𝐖𝐡𝐚𝐭𝐬A𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 SupremeLord💫
 <div class = "repo" align = "center">
  
@@ -41,18 +44,16 @@
    
 
 
-   # 2..DEPLOY ON GITHUB ⤵️
 
 
-
-**Thank You Dear**
+## **Thank You Dear**
 
 > DEVELOPER OF JUNE-XD
 - [SUPREMELORD ](https://github.com/Peacemaker-cyber)
 - Creater and Owner Of June-XD
 
 > JUNE-XD Helper
-- [EMMANUEL PEACEMAKER](https://github.com/Peacemaker-cyber)
+- [SUPREMELORD](https://github.com/Peacemaker-cyber)
 - For helping in bot plugin files.
 ---
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
