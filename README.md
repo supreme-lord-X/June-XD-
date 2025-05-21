@@ -49,11 +49,11 @@
 ## **Thank You Dear**
 
 > DEVELOPER OF JUNE-XD
-- [SUPREMELORD ](https://github.com/Peacemaker-cyber)
+- [SUPREMELORD ](https://github.com/supreme-lord-X)
 - Creater and Owner Of June-XD
 
 > JUNE-XD Helper
-- [SUPREMELORD](https://github.com/Peacemaker-cyber)
+- [SUPREMELORD](https://github.com/supreme-lord-X)
 - For helping in bot plugin files.
 ---
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
