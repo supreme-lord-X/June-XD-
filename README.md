@@ -17,7 +17,7 @@
 
 > Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/supreme-lord-X/JUNE-XD/fork"><img title="JUNE-XD" src="https://img.shields.io/badge/FORK-JUNEXD?color=darkgreen&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/supreme-lord-X/JUNE-XD/fork"><img title="JUNE-XD" src="https://img.shields.io/badge/FORK-JUNE-XD?color=darkgreen&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
