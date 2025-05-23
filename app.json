@@ -22,7 +22,7 @@
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "HI DEAR IM ONLINE.!!♻️"
+      "value": "HI DEAR JUNE IS ON."
     },
     
     "PREFIX": {
@@ -34,7 +34,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": true,
-      "value": "public"
+      "value": "private"
     }, 
 
     "AUTO_VOICE": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "JUNE-XD.",
       "required": true,
-      "value": "💠『JUNE-MD』💠"
+      "value": "💠『JUNE-XD』💠"
     }, 
 
     "HEART_REACT": {
