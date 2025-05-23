@@ -1,51 +1,58 @@
-# JUNE-XD
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-
- <p align="center">
-    A SIMPLE WATSAPP BOT DEVELOPED BY SUPREME 🤍
-
-<div class = "repo" align = "center">
- 
-<a href = "#">
-<img src = "https://files.catbox.moe/yndl4u.jpg"  width="300" height="200">
-</img>
- 
- <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&linesPEACEMAKER-MD+MD+WHATSAPP+BOT+MD" alt="">
-   
-## 🚀𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏🚀
-
-**1. Fork This Repository**
-
-- tart by forking this repository to your own GitHub account. Click the button below to fork:
-
-  <a href="https://github.com/Peacemaker-cyber/PEACEMAKER-MD/fork"><img title="JUNE-XD" src="https://img.shields.io/badge/FORK-JUNE-XD?color=darkgreem&style=for-the-badge&logo=stackshare"></a>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
- ## Get Session ID (WhatsApp Pair Code Login)
-
-> To deploy, generate your session ID from the link below:
-<p align="center">
-  <a href="https://peace-merchant.onrender.com">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
-  </a>
-</p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-2. **Obtain the Session ID**: After accessing the URL, you should see a session ID displayed. Copy this session ID.
-
-
-   
-
-</a>
-</p>
-<p align="center">
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Peacemaker-cyber/Peacemaker-md/tree/main?tab=readme-ov-file' target="_blank"> <img title="DEPLOY NEXUS-AI BOT" src="https://img.shields.io/badge/👻_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
-  </a>
-</p>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>JUNE-XD WATSAPP BOT</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #00ff44;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    .front-text {
+      position: absolute;
+      top: 20px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 2px 2px 8px #0008;
+      letter-spacing: 2px;
+      z-index: 2;
+      animation: fadeInDown 1.5s;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-40px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+    .photo-animated {
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      border: 6px solid #fff;
+      object-fit: cover;
+      margin-top: 80px;
+      box-shadow: 0 6px 24px #0005;
+      animation: bounce 2s infinite alternate;
+      z-index: 1;
+    }
+    @keyframes bounce {
+      0% { transform: translateY(0);}
+      100% { transform: translateY(-20px);}
+    }
+  </style>
+</head>
+<body>
+  <div class="front-text">JUNE-XD WATSAPP BOT</div>
+  <img src="your-photo.gif" alt="Animated Photo" class="photo-animated" />
+</body>
+</html>
