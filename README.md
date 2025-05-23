@@ -1,7 +1,7 @@
-# PEACEMAKER-MD
+# JUNE-XD
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 EMMANUEL🌝💚
+> A SIMPLE WATSAPP BOT DEVELOPED BY SUPREME 🤍
 <div class = "repo" align = "center">
  
 <a href = "#">
@@ -10,17 +10,17 @@
  <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&linesPEACEMAKER-MD+MD+WHATSAPP+BOT+MD" alt="">
    
-## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
+## 🚀𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏🚀
 
 **1. Fork This Repository**
 
-*_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
+- tart by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/Peacemaker-cyber/PEACEMAKER-MD/fork"><img title="PEACEMAKER-MD" src="https://img.shields.io/badge/FORK-PEACEMAKER-MD?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Peacemaker-cyber/PEACEMAKER-MD/fork"><img title="JUNE-XD" src="https://img.shields.io/badge/FORK-JUNE-XD?color=darkgreem&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
-🔑 Get Session ID (WhatsApp Pair Code Login)
+ ## Get Session ID (WhatsApp Pair Code Login)
 
 > To deploy, generate your session ID from the link below:
 <p align="center">
