@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
-A SIMPLE WATSAPP BOT DEVELOPED BY SUPREME 🤍
+   A SIMPLE WATSAPP BOT DEVELOPED BY SUPREME 🤍
 
 <div class = "repo" align = "center">
  
