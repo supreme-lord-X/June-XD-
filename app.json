@@ -1,5 +1,5 @@
 {
-  "name": "JUNE XD",
+  "name": "JUNE-XD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ SUPREME ",
   "logo": "your image url",
   "keywords": ["bot"],
@@ -93,7 +93,7 @@
     }, 
 
     "BOT_NAME": {
-      "description": "SUPREME.",
+      "description": "JUNE-XD.",
       "required": true,
       "value": "💠『JUNE-MD』💠"
     }, 
