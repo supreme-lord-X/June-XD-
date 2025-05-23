@@ -24,6 +24,6 @@
     <strong>2. SESSION ID & DEPLOYMENTS</strong>
     <br>
     <a href="https://cypherxbot.vercel.app/" target="_blank">
-        <img alt="WEBSITE" src="https://img.shields.io/badge/Let%27s_Go-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=darkpurple"/>
+        <img alt="WEBSITE" src="https://img.shields.io/badge/Let%27s_Go-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=lightblue"/>
     </a>
 </p>
