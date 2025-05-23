@@ -752,4 +752,737 @@ cmd(_0x53f490, async (_0x47c9d7, _0x35ca33, _0x4e5ffe, {
   botNumber: _0x4d1c42,
   pushname: _0x3c2ff7,
   isMe: _0x39e0e1,
-  isOwner: _0x55
+  isOwner: _0xe82872,
+  groupMetadata: _0x55d05e,
+  groupName: _0xe82872,
+  participants: _0x5b2e7d,
+  groupAdmins: _0x84a5f3,
+  isBotAdmins: _0x5ee4f7,
+  isCreator: _0x571c2f,
+  isDev: _0x29ee1,
+  isAdmins: _0x19b4d1,
+  reply: _0x12d263
+}) => {
+  try {
+    const _0x12bb44 = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x571c2f && !_0x29ee1 && !_0x55939f && !_0x39e0e1) {
+      return _0x12d263(_0x12bb44.own_cmd);
+    }
+    if (!_0x1f1cc7) {
+      return _0x12d263("*Please write the Group Link*️ 🖇️");
+    }
+    let _0x28e07b = _0x283da0[0x0].split('https://chat.whatsapp.com/')[0x1];
+    await _0x47c9d7.groupAcceptInvite(_0x28e07b);
+    const _0x3f0d45 = {
+      'text': "✔️ *Successfully Joined*"
+    };
+    const _0x2e8dca = {
+      'quoted': _0x35ca33
+    };
+    await _0x47c9d7.sendMessage(_0x15bbf1, _0x3f0d45, _0x2e8dca);
+  } catch (_0x39c9f4) {
+    const _0x2dd285 = {
+      'text': '❌',
+      'key': _0x35ca33.key
+    };
+    const _0x172b23 = {
+      'react': _0x2dd285
+    };
+    await _0x47c9d7.sendMessage(_0x15bbf1, _0x172b23);
+    console.log(_0x39c9f4);
+    _0x12d263("❌ *Error Accurated !!*\n\n" + _0x39c9f4);
+  }
+});
+const _0x4df201 = {
+  'pattern': "invite",
+  'react': "🖇️",
+  'alias': ['grouplink', "glink"],
+  'desc': "To Get the Group Invite link",
+  'category': "group",
+  'use': ".invite",
+  'filename': __filename
+};
+cmd(_0x4df201, async (_0x5ca0b3, _0x1d2aac, _0x5ae3b9, {
+  from: _0x17b97f,
+  l: _0x320435,
+  quoted: _0x32016d,
+  body: _0x2afdd5,
+  isCmd: _0x226900,
+  command: _0x155d31,
+  args: _0x29a67f,
+  q: _0x4862f2,
+  isGroup: _0x2e5d88,
+  sender: _0x253057,
+  senderNumber: _0x461579,
+  botNumber2: _0x2dcc66,
+  botNumber: _0x3dac62,
+  pushname: _0x46651c,
+  isMe: _0x43878c,
+  isOwner: _0x2db519,
+  groupMetadata: _0x5ccd53,
+  groupName: _0x142c7c,
+  participants: _0x457d22,
+  groupAdmins: _0x27605d,
+  isBotAdmins: _0x29764e,
+  isCreator: _0x27414b,
+  isDev: _0x7de5ca,
+  isAdmins: _0x3f2992,
+  reply: _0x4b7e40
+}) => {
+  try {
+    const _0x5ab1ee = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x2e5d88) {
+      return _0x4b7e40(_0x5ab1ee.only_gp);
+    }
+    if (!_0x3f2992) {
+      const _0x1ff13e = {
+        'quoted': _0x1d2aac
+      };
+      if (!_0x7de5ca) {
+        _0x4b7e40(_0x5ab1ee.you_adm);
+        return _0x1ff13e;
+      }
+    }
+    if (!_0x29764e) {
+      return _0x4b7e40(_0x5ab1ee.give_adm);
+    }
+    const _0x191ef8 = await _0x5ca0b3.groupInviteCode(_0x17b97f);
+    const _0x29587e = {
+      'text': "🖇️ *Group Link*\n\nhttps://chat.whatsapp.com/" + _0x191ef8
+    };
+    const _0x125136 = {
+      'quoted': _0x1d2aac
+    };
+    await _0x5ca0b3.sendMessage(_0x17b97f, _0x29587e, _0x125136);
+  } catch (_0x63c156) {
+    const _0x476c01 = {
+      'text': '❌',
+      'key': _0x1d2aac.key
+    };
+    const _0x537f80 = {
+      'react': _0x476c01
+    };
+    await _0x5ca0b3.sendMessage(_0x17b97f, _0x537f80);
+    console.log(_0x63c156);
+    _0x4b7e40("❌ *Error Accurated !!*\n\n" + _0x63c156);
+  }
+});
+const _0x34bd2a = {
+  'pattern': "revoke",
+  'react': "🖇️",
+  'alias': ["revokegrouplink", "resetglink", "revokelink", "f_revoke"],
+  'desc': "To Reset the group link",
+  'category': 'group',
+  'use': '.revoke',
+  'filename': __filename
+};
+cmd(_0x34bd2a, async (_0xd64721, _0x5b20b2, _0x2bf8dd, {
+  from: _0x2a4c3b,
+  l: _0x38cd01,
+  quoted: _0x207ad7,
+  body: _0x523130,
+  isCmd: _0x7343fe,
+  command: _0x288b13,
+  args: _0x4157cf,
+  q: _0x250059,
+  isGroup: _0x7863dd,
+  sender: _0x92a6a8,
+  senderNumber: _0x2fee70,
+  botNumber2: _0x238294,
+  botNumber: _0x549be0,
+  pushname: _0x302895,
+  isMe: _0x6e68f8,
+  isOwner: _0xffeee0,
+  groupMetadata: _0xe2b0b4,
+  groupName: _0x18bb6f,
+  participants: _0x527bd5,
+  groupAdmins: _0xd1b113,
+  isBotAdmins: _0x242d35,
+  isCreator: _0x2dd9e1,
+  isDev: _0x4361df,
+  isAdmins: _0x2050dd,
+  reply: _0x1ae877
+}) => {
+  try {
+    const _0x5ba157 = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x7863dd) {
+      return _0x1ae877(_0x5ba157.only_gp);
+    }
+    if (!_0x2050dd) {
+      const _0x166031 = {
+        'quoted': _0x5b20b2
+      };
+      if (!_0x4361df) {
+        _0x1ae877(_0x5ba157.you_adm);
+        return _0x166031;
+      }
+    }
+    if (!_0x242d35) {
+      return _0x1ae877(_0x5ba157.give_adm);
+    }
+    await _0xd64721.groupRevokeInvite(_0x2a4c3b);
+    const _0x56209b = {
+      'text': "*Group link Reseted* ⛔"
+    };
+    const _0x3abb77 = {
+      'quoted': _0x5b20b2
+    };
+    await _0xd64721.sendMessage(_0x2a4c3b, _0x56209b, _0x3abb77);
+  } catch (_0x1d9b7d) {
+    const _0x11ba01 = {
+      'text': '❌',
+      'key': _0x5b20b2.key
+    };
+    const _0x1c73fc = {
+      'react': _0x11ba01
+    };
+    await _0xd64721.sendMessage(_0x2a4c3b, _0x1c73fc);
+    console.log(_0x1d9b7d);
+    _0x1ae877("❌ *Error Accurated !!*\n\n" + _0x1d9b7d);
+  }
+});
+const _0x57538f = {
+  'pattern': "kick",
+  'react': '🥏',
+  'alias': ["remove"],
+  'desc': "To Remove a participant from Group",
+  'category': "group",
+  'use': ".kick",
+  'filename': __filename
+};
+cmd(_0x57538f, async (_0xdf818e, _0xa69965, _0x290fe5, {
+  from: _0x277530,
+  l: _0x1424d7,
+  quoted: _0xc99b4e,
+  body: _0x5195f3,
+  isCmd: _0x1a81a4,
+  command: _0x1ee878,
+  mentionByTag: _0x383b10,
+  args: _0x2e0664,
+  q: _0x3bfd97,
+  isGroup: _0x2af926,
+  sender: _0x4ff03c,
+  senderNumber: _0x374722,
+  botNumber2: _0x5e6e97,
+  botNumber: _0x28b955,
+  pushname: _0x511cf4,
+  isMe: _0x59c181,
+  isOwner: _0x3fc01d,
+  groupMetadata: _0xfdebc1,
+  groupName: _0x4f1621,
+  participants: _0x45edd7,
+  groupAdmins: _0x91732c,
+  isBotAdmins: _0x54a5f9,
+  isCreator: _0x32ceb6,
+  isDev: _0x58a57b,
+  isAdmins: _0x5ad85f,
+  reply: _0x3823f7
+}) => {
+  try {
+    const _0x10dd83 = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x2af926) {
+      return _0x3823f7(_0x10dd83.only_gp);
+    }
+    if (!_0x5ad85f) {
+      const _0x5787bc = {
+        'quoted': _0xa69965
+      };
+      if (!_0x58a57b) {
+        _0x3823f7(_0x10dd83.you_adm);
+        return _0x5787bc;
+      }
+    }
+    if (!_0x54a5f9) {
+      return _0x3823f7(_0x10dd83.give_adm);
+    }
+    let _0x1bed6a = _0xa69965.mentionedJid ? _0xa69965.mentionedJid[0x0] : _0xa69965.msg.contextInfo.participant || false;
+    if (!_0x1bed6a) {
+      return _0x3823f7("*Couldn't find any user in context* ❌");
+    }
+    await _0xdf818e.groupParticipantsUpdate(_0x277530, [_0x1bed6a], "remove");
+    const _0x46ed61 = {
+      'text': "*Successfully removed*  ✔️"
+    };
+    const _0x281eec = {
+      'quoted': _0xa69965
+    };
+    await _0xdf818e.sendMessage(_0x277530, _0x46ed61, _0x281eec);
+  } catch (_0x5212f6) {
+    const _0x310822 = {
+      'text': '❌',
+      'key': _0xa69965.key
+    };
+    const _0x3053a8 = {
+      'react': _0x310822
+    };
+    await _0xdf818e.sendMessage(_0x277530, _0x3053a8);
+    console.log(_0x5212f6);
+    _0x3823f7("❌ *Error Accurated !!*\n\n" + _0x5212f6);
+  }
+});
+const _0xd699f4 = {
+  'pattern': "promote",
+  'react': '🥏',
+  'alias': ["addadmin"],
+  'desc': "To Add a participatant as a Admin",
+  'category': 'group',
+  'use': ".promote",
+  'filename': __filename
+};
+cmd(_0xd699f4, async (_0x4924ea, _0x5010b3, _0x3c1d65, {
+  from: _0x49e602,
+  l: _0x33cb28,
+  quoted: _0x5c131b,
+  body: _0x56af54,
+  isCmd: _0x2c4d1d,
+  command: _0x5c9432,
+  mentionByTag: _0x866e04,
+  args: _0x21c205,
+  q: _0xa50d6e,
+  isGroup: _0x411587,
+  sender: _0x343c09,
+  senderNumber: _0x4205b9,
+  botNumber2: _0x430b16,
+  botNumber: _0x385106,
+  pushname: _0x56aa61,
+  isMe: _0xe7e204,
+  isOwner: _0x30c7e8,
+  groupMetadata: _0x3c38bf,
+  groupName: _0x588879,
+  participants: _0xe3d0b3,
+  groupAdmins: _0x153505,
+  isBotAdmins: _0x4091e7,
+  isCreator: _0x22a9c2,
+  isDev: _0x5d9c32,
+  isAdmins: _0x233034,
+  reply: _0x542673
+}) => {
+  try {
+    const _0x4208b6 = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x411587) {
+      return _0x542673(_0x4208b6.only_gp);
+    }
+    if (!_0x233034) {
+      const _0x30c355 = {
+        'quoted': _0x5010b3
+      };
+      if (!_0x5d9c32) {
+        _0x542673(_0x4208b6.you_adm);
+        return _0x30c355;
+      }
+    }
+    if (!_0x4091e7) {
+      return _0x542673(_0x4208b6.give_adm);
+    }
+    let _0x43bdf3 = _0x5010b3.mentionedJid ? _0x5010b3.mentionedJid[0x0] : _0x5010b3.msg.contextInfo.participant || false;
+    if (!_0x43bdf3) {
+      return _0x542673("*Couldn't find any user in context* ❌");
+    }
+    const _0x58b5eb = await getGroupAdmins(_0xe3d0b3);
+    if (_0x58b5eb.includes(_0x43bdf3)) {
+      return _0x542673("❗ *User Already an Admin*  ✔️");
+    }
+    await _0x4924ea.groupParticipantsUpdate(_0x49e602, [_0x43bdf3], "promote");
+    const _0x2a97e1 = {
+      'text': "*User promoted as an Admin*  ✔️"
+    };
+    const _0x47980e = {
+      'quoted': _0x5010b3
+    };
+    await _0x4924ea.sendMessage(_0x49e602, _0x2a97e1, _0x47980e);
+  } catch (_0x3cdda4) {
+    const _0x5d1425 = {
+      'text': '❌',
+      'key': _0x5010b3.key
+    };
+    const _0x183397 = {
+      'react': _0x5d1425
+    };
+    await _0x4924ea.sendMessage(_0x49e602, _0x183397);
+    console.log(_0x3cdda4);
+    _0x542673("❌ *Error Accurated !!*\n\n" + _0x3cdda4);
+  }
+});
+const _0x10f253 = {
+  'pattern': "demote",
+  'react': '🥏',
+  'alias': ["removeadmin"],
+  'desc': "To Demote Admin to Member",
+  'category': "group",
+  'use': ".demote",
+  'filename': __filename
+};
+cmd(_0x10f253, async (_0x100559, _0x26bd3b, _0x19d9e3, {
+  from: _0x23fa85,
+  l: _0x5d6046,
+  quoted: _0x2ccaeb,
+  body: _0x5b3e9b,
+  isCmd: _0x286195,
+  command: _0x58a518,
+  mentionByTag: _0x465dce,
+  args: _0x37c9f5,
+  q: _0x23caef,
+  isGroup: _0x472133,
+  sender: _0x4d20bd,
+  senderNumber: _0x3dcd8c,
+  botNumber2: _0x403a3e,
+  botNumber: _0x543e39,
+  pushname: _0x4f7e0c,
+  isMe: _0x2a1784,
+  isOwner: _0x1ec34f,
+  groupMetadata: _0x26a272,
+  groupName: _0xb5af0c,
+  participants: _0x2d8ac7,
+  groupAdmins: _0x2571d5,
+  isBotAdmins: _0x270691,
+  isCreator: _0x2c64c3,
+  isDev: _0x795a5f,
+  isAdmins: _0x576070,
+  reply: _0x391013
+}) => {
+  try {
+    const _0xaf2bbe = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x472133) {
+      return _0x391013(_0xaf2bbe.only_gp);
+    }
+    if (!_0x576070) {
+      const _0x15e5c1 = {
+        'quoted': _0x26bd3b
+      };
+      if (!_0x795a5f) {
+        _0x391013(_0xaf2bbe.you_adm);
+        return _0x15e5c1;
+      }
+    }
+    if (!_0x270691) {
+      return _0x391013(_0xaf2bbe.give_adm);
+    }
+    let _0x4261f8 = _0x26bd3b.mentionedJid ? _0x26bd3b.mentionedJid[0x0] : _0x26bd3b.msg.contextInfo.participant || false;
+    if (!_0x4261f8) {
+      return _0x391013("*Couldn't find any user in context* ❌");
+    }
+    const _0xc25d0c = await getGroupAdmins(_0x2d8ac7);
+    if (!_0xc25d0c.includes(_0x4261f8)) {
+      return _0x391013("❗ *User Already not an Admin*");
+    }
+    await _0x100559.groupParticipantsUpdate(_0x23fa85, [_0x4261f8], "demote");
+    const _0x3cd26a = {
+      'text': "*User No longer an Admin*  ✔️"
+    };
+    const _0x59c923 = {
+      'quoted': _0x26bd3b
+    };
+    await _0x100559.sendMessage(_0x23fa85, _0x3cd26a, _0x59c923);
+  } catch (_0x29a8ff) {
+    const _0x271890 = {
+      'text': '❌',
+      'key': _0x26bd3b.key
+    };
+    const _0x1d1d66 = {
+      'react': _0x271890
+    };
+    await _0x100559.sendMessage(_0x23fa85, _0x1d1d66);
+    console.log(_0x29a8ff);
+    _0x391013("❌ *Error Accurated !!*\n\n" + _0x29a8ff);
+  }
+});
+const _0x53a4af = {
+  'pattern': "tagall",
+  'react': '🔊',
+  'alias': ["f_tagall"],
+  'desc': "To Tag all Members",
+  'category': "group",
+  'use': ".tagall",
+  'filename': __filename
+};
+cmd(_0x53a4af, async (_0x4b7a1c, _0x355fbd, _0xc06583, {
+  from: _0x43cf50,
+  l: _0x1274f4,
+  quoted: _0x68b28c,
+  body: _0x128cda,
+  isCmd: _0x39b2e3,
+  command: _0x4b97ec,
+  mentionByTag: _0x17f382,
+  args: _0x28acb9,
+  q: _0x6f0c26,
+  isGroup: _0x88d6b,
+  sender: _0x57c54c,
+  senderNumber: _0x17e523,
+  botNumber2: _0x5bf942,
+  botNumber: _0x5a4bfe,
+  pushname: _0x5be918,
+  isMe: _0x5d664d,
+  isOwner: _0x5737c9,
+  groupMetadata: _0x2e5eaa,
+  groupName: _0x112cbc,
+  participants: _0x31686b,
+  groupAdmins: _0x3cb5d5,
+  isBotAdmins: _0x24571c,
+  isCreator: _0x2399d3,
+  isDev: _0x8e90d9,
+  isAdmins: _0x594511,
+  reply: _0x40eeee
+}) => {
+  try {
+    const _0x472cc7 = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x88d6b) {
+      return _0x40eeee(_0x472cc7.only_gp);
+    }
+    if (!_0x594511) {
+      const _0x2411d9 = {
+        'quoted': _0x355fbd
+      };
+      if (!_0x8e90d9) {
+        _0x40eeee(_0x472cc7.you_adm);
+        return _0x2411d9;
+      }
+    }
+    if (!_0x24571c) {
+      return _0x40eeee(_0x472cc7.give_adm);
+    }
+    let _0x345955 = "💱 *HI ALL ! GIVE YOUR ATTENTION PLEASE* \n \n";
+    for (let _0x8937a1 of _0x31686b) {
+      _0x345955 += "> ᴅᴇᴀʀ ☣️ @" + _0x8937a1.id.split('@')[0x0] + "\n";
+    }
+    const _0x9c4934 = {
+      'quoted': _0x355fbd
+    };
+    _0x4b7a1c.sendMessage(_0x43cf50, {
+      'text': _0x345955,
+      'mentions': _0x31686b.map(_0x2f0953 => _0x2f0953.id)
+    }, _0x9c4934);
+  } catch (_0x511eaf) {
+    const _0x3be813 = {
+      'text': '❌',
+      'key': _0x355fbd.key
+    };
+    const _0x11890d = {
+      'react': _0x3be813
+    };
+    await _0x4b7a1c.sendMessage(_0x43cf50, _0x11890d);
+    console.log(_0x511eaf);
+    _0x40eeee("❌ *Error Accurated !!*\n\n" + _0x511eaf);
+  }
+});
+const _0x3220aa = {
+  'pattern': "hidetag",
+  'react': '🔊',
+  'alias': ["tag", "f_tag"],
+  'desc': "To Tag all Members for Message",
+  'category': "group",
+  'use': ".tag Hi",
+  'filename': __filename
+};
+cmd(_0x3220aa, async (_0x101a30, _0x3470bb, _0x2d7d33, {
+  from: _0x58bb66,
+  l: _0x1ca49f,
+  quoted: _0x58edb8,
+  body: _0x6e7c1,
+  isCmd: _0x38ae4f,
+  command: _0x48672f,
+  mentionByTag: _0x5acb96,
+  args: _0x1d6a92,
+  q: _0x43f681,
+  isGroup: _0x351100,
+  sender: _0x3115eb,
+  senderNumber: _0x145528,
+  botNumber2: _0x59e71b,
+  botNumber: _0x220e3e,
+  pushname: _0x29f641,
+  isMe: _0x47d4e3,
+  isOwner: _0x82d151,
+  groupMetadata: _0x58afad,
+  groupName: _0xbeee21,
+  participants: _0x5a381b,
+  groupAdmins: _0x330d81,
+  isBotAdmins: _0x24643c,
+  isCreator: _0x4ed033,
+  isDev: _0x2f2923,
+  isAdmins: _0xbdcb4,
+  reply: _0x3798d6
+}) => {
+  try {
+    const _0x4a181e = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x351100) {
+      return _0x3798d6(_0x4a181e.only_gp);
+    }
+    if (!_0xbdcb4) {
+      const _0x206ddc = {
+        'quoted': _0x3470bb
+      };
+      if (!_0x2f2923) {
+        _0x3798d6(_0x4a181e.you_adm);
+        return _0x206ddc;
+      }
+    }
+    if (!_0x24643c) {
+      return _0x3798d6(_0x4a181e.give_adm);
+    }
+    if (!_0x43f681) {
+      return _0x3798d6("*Please add a Message* ℹ️");
+    }
+    let _0x5cbff2 = '' + _0x43f681;
+    const _0x2515b9 = {
+      'quoted': _0x3470bb
+    };
+    _0x101a30.sendMessage(_0x58bb66, {
+      'text': _0x5cbff2,
+      'mentions': _0x5a381b.map(_0x301d5f => _0x301d5f.id)
+    }, _0x2515b9);
+  } catch (_0xc17467) {
+    const _0x275155 = {
+      'text': '❌',
+      'key': _0x3470bb.key
+    };
+    const _0x3a041e = {
+      'react': _0x275155
+    };
+    await _0x101a30.sendMessage(_0x58bb66, _0x3a041e);
+    console.log(_0xc17467);
+    _0x3798d6("❌ *Error Accurated !!*\n\n" + _0xc17467);
+  }
+});
+const _0x446ca7 = {
+  'pattern': "tagx",
+  'react': '🔊',
+  'alias': ['taggc', 'mentionall'],
+  'desc': "To Tag all Members for Message",
+  'category': "group",
+  'use': ".tag Hi",
+  'filename': __filename
+};
+cmd(_0x446ca7, async (_0x4ccc2b, _0x46df43, _0x157a68, {
+  from: _0x4a3586,
+  l: _0x1849a7,
+  quoted: _0x49f20b,
+  body: _0x289938,
+  isCmd: _0x387e0e,
+  command: _0x1d628a,
+  mentionByTag: _0x4afa07,
+  args: _0x1c76ca,
+  q: _0x1b7262,
+  isGroup: _0x134b12,
+  sender: _0x3ddba6,
+  senderNumber: _0x435739,
+  botNumber2: _0x67152b,
+  botNumber: _0x1a2845,
+  pushname: _0x5aef84,
+  isMe: _0x2b7832,
+  isOwner: _0x356f37,
+  groupMetadata: _0x3fc316,
+  groupName: _0x14b7ff,
+  participants: _0x2f6187,
+  groupAdmins: _0x3a1e2e,
+  isBotAdmins: _0x252cf3,
+  isCreator: _0x284fda,
+  isDev: _0xab165f,
+  isAdmins: _0x2ec0d4,
+  reply: _0x4bdb4a
+}) => {
+  try {
+    if (!_0x157a68.quoted) {
+      return _0x4bdb4a("*Please mention a message* ℹ️");
+    }
+    if (!_0x1b7262) {
+      return _0x4bdb4a("*Please add a Group Jid* ℹ️");
+    }
+    let _0x5c2939 = '' + _0x157a68.quoted.msg;
+    const _0x1dc222 = {
+      'quoted': _0x46df43
+    };
+    _0x4ccc2b.sendMessage(_0x1b7262, {
+      'text': _0x5c2939,
+      'mentions': _0x2f6187.map(_0x7b549a => _0x7b549a.id)
+    }, _0x1dc222);
+  } catch (_0x1589ce) {
+    const _0x58dd2e = {
+      'text': '❌',
+      'key': _0x46df43.key
+    };
+    const _0x3ec251 = {
+      'react': _0x58dd2e
+    };
+    await _0x4ccc2b.sendMessage(_0x4a3586, _0x3ec251);
+    console.log(_0x1589ce);
+    _0x4bdb4a("❌ *Error Accurated !!*\n\n" + _0x1589ce);
+  }
+});
+const _0x4c04aa = {
+  'pattern': 'ginfo',
+  'react': '🥏',
+  'alias': ["groupinfo"],
+  'desc': "Get group informations.",
+  'category': "group",
+  'use': ".ginfo",
+  'filename': __filename
+};
+cmd(_0x4c04aa, async (_0x231979, _0x12b151, _0x116356, {
+  from: _0x2d7057,
+  l: _0x1f51d6,
+  quoted: _0xfa3403,
+  body: _0x4b72e9,
+  isCmd: _0x40eeb4,
+  command: _0x3805b6,
+  args: _0x261d7b,
+  q: _0x2663b3,
+  isGroup: _0x14a404,
+  sender: _0x36a844,
+  senderNumber: _0xc77a65,
+  botNumber2: _0xeebe6c,
+  botNumber: _0xd4f7c,
+  pushname: _0x47d89f,
+  isMe: _0x34e197,
+  isOwner: _0x5aed14,
+  groupMetadata: _0x4c2ba5,
+  groupName: _0x3145fd,
+  participants: _0x2ef24c,
+  groupAdmins: _0x333eb7,
+  isBotAdmins: _0x246965,
+  isCreator: _0x2ddfa0,
+  isDev: _0x3d31de,
+  isAdmins: _0x680b41,
+  reply: _0x4db5ec
+}) => {
+  try {
+    const _0x181fef = (await fetchJson("https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/MSG/mreply.json")).replyMsg;
+    if (!_0x14a404) {
+      return _0x4db5ec(_0x181fef.only_gp);
+    }
+    if (!_0x680b41) {
+      const _0x21957c = {
+        'quoted': _0x12b151
+      };
+      if (!_0x3d31de) {
+        _0x4db5ec(_0x181fef.you_adm);
+        return _0x21957c;
+      }
+    }
+    if (!_0x246965) {
+      return _0x4db5ec(_0x181fef.give_adm);
+    }
+    const _0x317a58 = await _0x231979.groupMetadata(_0x2d7057);
+    let _0x6938e7 = await _0x231979.profilePictureUrl(_0x2d7057, "image");
+    const _0x880de0 = "\n*" + _0x317a58.subject + "*\n\n🐉 *Group Jid* - " + _0x317a58.id + "\n\n📬 *Participant Count* - " + _0x317a58.size + "\n\n👤 *Group Creator* - " + _0x317a58.owner + "\n\n📃 *Group Description* - " + _0x317a58.desc + "\n\n";
+    const _0x3e18be = {
+      'url': _0x6938e7
+    };
+    const _0x3b6023 = {
+      'quoted': _0x12b151
+    };
+    await _0x231979.sendMessage(_0x2d7057, {
+      'image': _0x3e18be,
+      'caption': _0x880de0 + config.FOOTER
+    }, _0x3b6023);
+  } catch (_0xb01bf8) {
+    const _0x45b478 = {
+      'text': '❌',
+      'key': _0x12b151.key
+    };
+    const _0x49ee31 = {
+      'react': _0x45b478
+    };
+    await _0x231979.sendMessage(_0x2d7057, _0x49ee31);
+    console.log(_0xb01bf8);
+    _0x4db5ec("❌ *Error Accurated !!*\n\n" + _0xb01bf8);
+  }
+});
